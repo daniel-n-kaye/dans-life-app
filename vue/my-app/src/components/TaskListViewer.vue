@@ -1,11 +1,13 @@
 <template>
-  <ol>
-    <task-viewer
-      v-for="task in taskList"
-      v-bind:task="task"
-      v-bind:key="task.Id"
-    />
-  </ol>
+  <div class="">
+    <ol>
+      <task-viewer
+        v-for="task in taskList"
+        v-bind:task="task"
+        v-bind:key="task.Id"
+      />
+    </ol>
+  </div>
 </template>
 
 <script lang="ts">
