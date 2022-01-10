@@ -1,9 +1,5 @@
 <template>
-  <div>
-    <div>This is a task, and here's it's Name:</div>
-    <div v-if="task">task object Was Found!</div>
-    <div v-if="task.Name">Name Was Found: {{ task.Name }}</div>
-  </div>
+  <li>{{ task.Name }}</li>
 </template>
 
 <script lang="ts">

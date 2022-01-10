@@ -33,27 +33,13 @@
 </template>
 
 <script lang="ts">
-<<<<<<< Updated upstream
-import { Options, Vue } from 'vue-class-component'
-
-@Options({
-  props: {
-    msg: String
-  }
-})
-=======
 import { Options, Vue, } from 'vue-class-component';
-import TaskViewer from './TaskViewer.vue';
 
 @Options({
-  components: {
-    TaskViewer,
-  },
   props: {
     msg: String,
   },
 },)
->>>>>>> Stashed changes
 export default class HelloWorld extends Vue {
   msg!: string
 }
