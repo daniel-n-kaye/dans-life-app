@@ -1,19 +1,5 @@
 <template>
-<<<<<<< Updated upstream
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
-</template>
-
-<script lang="ts">
-import { Options, Vue } from 'vue-class-component'
-import HelloWorld from './components/HelloWorld.vue'
-
-@Options({
-  components: {
-    HelloWorld
-  }
-=======
-  <div>
+ <div>
     <img alt="Vue logo" src="./assets/logo.png" />
     <!-- <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" /> -->
     <!-- <task-list :tasks="task-data"/> -->
@@ -63,7 +49,6 @@ import TutorialTodoListWithTaskObject from "./components/TutorialTodoListWithTas
       tasks: Task.sampleTaskList,
     };
   },
->>>>>>> Stashed changes
 })
 export default class App extends Vue {}
 </script>
