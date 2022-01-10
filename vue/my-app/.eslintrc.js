@@ -13,7 +13,19 @@ module.exports = {
   },
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+<<<<<<< Updated upstream
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off'
+=======
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    'comma-dangle': ['warn', 'always'],
+    'semi': ['warn', 'always'],
+    'quotes': ['warn', 'single'],
+    'spaced-comment': "off",
+    'padded-blocks': 'off',
+    'no-trailing-spaces': 'warn',
+    
+
+>>>>>>> Stashed changes
   },
   overrides: [
     {
