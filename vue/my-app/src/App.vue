@@ -5,7 +5,7 @@
     <img alt="Vue logo" src="./assets/logo.png" />
 
     <!-- Sample Task List -->
-    <tutorial-todo-list-with-task-object v-bind:taskList="sampleTasks" />
+    <task-list-viewer v-bind:taskList="sampleTasks" />
 
   </div>
 </template>
