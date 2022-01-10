@@ -1,6 +1,6 @@
 <template>
   <ol>
-    <tutorial-todo-item-with-task-object
+    <task-viewer
       v-for="task in taskList"
       v-bind:task="task"
       v-bind:key="task.Id"
@@ -12,11 +12,11 @@
 import { PropType } from "vue";
 import { Options, Vue } from "vue-class-component";
 import { Task } from "../models/Task";
-import TutorialTodoItemWithTaskObject from "./TutorialTodoItemWithTaskObject.vue";
+import TaskViewer from "./TaskViewer.vue";
 
 @Options({
   components: {
-    TutorialTodoItemWithTaskObject,
+    TaskViewer,
   },
   props: {
     taskList: {
@@ -24,5 +24,5 @@ import TutorialTodoItemWithTaskObject from "./TutorialTodoItemWithTaskObject.vue
     },
   },
 })
-export default class TutorialTodoListWithTaskObject extends Vue {}
+export default class TaskListViewer extends Vue {}
 </script>
